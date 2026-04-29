@@ -1,0 +1,21 @@
+# Build artifacts
+.stack-work/
+dist/
+node_modules/
+__pycache__/
+*.o
+*.hi
+*.dyn_o
+*.dyn_hi
+
+# Rime (third-party data, not dotfiles)
+rime/
+fcitx5/.local/
+
+# XMonad build artifacts
+xmonad/.config/xmonad/restart
+
+# Secrets
+**/secrets*
+*.env
+.profile_secrets
