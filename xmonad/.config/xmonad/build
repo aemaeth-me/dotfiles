@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+
+cd "$(dirname "$0")"
+stack build
+cp -f "$(stack path --local-install-root)/bin/xmonad-laptop-exe" "$1"

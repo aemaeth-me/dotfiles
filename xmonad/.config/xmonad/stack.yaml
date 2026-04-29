@@ -1,0 +1,6 @@
+resolver: lts-24.38
+packages:
+- .
+extra-deps:
+  - xmobar-0.50@sha256:69acf20731074012f01477525f67a2dc0fac141560e60f58663b45eff6d2ee86,15275
+
