@@ -13,7 +13,7 @@ xmobarConf =
     { bgColor = backgroundColor
     , fgColor = foregroundColor
     , Xmobar.font = Themes.font
-    , additionalFonts = ["Sarasa Mono SC 26", "UbuntuMono Nerd Font Mono 24"]
+    , additionalFonts = ["Sarasa Mono SC 26", "Monaspace Neon NF 24"]
     , Xmobar.allDesktops = True
     , position = TopH 42
     , template = "}%UnsafeXMonadLog%{<fc=#7f849c>%date%</fc>"

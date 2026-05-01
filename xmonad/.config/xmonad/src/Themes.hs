@@ -8,7 +8,7 @@ module Themes
 where
 
 font :: String
-font = "UbuntuMono Nerd Font Mono 26"
+font = "Monaspace Neon NF 26"
 
 -- Catppuccin Mocha
 backgroundColor :: String
