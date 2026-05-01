@@ -15,6 +15,6 @@ main = xmonad . withKeys . withBar $ desktopConfig
   , borderWidth        = 2
   , focusedBorderColor = primaryColor
   , normalBorderColor  = backgroundColor
-  , workspaces         = ["〡","〢","〣","〤","〥","〦","〧","〨","〩"]
+  , workspaces         = ["〩","〨","〧","〦","〥","〤","〣","〢","〡"]
   , layoutHook         = smartBorders $ avoidStruts (Tall 1 0.03 0.62) ||| noBorders Full
   }
