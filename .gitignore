@@ -13,6 +13,9 @@ rime/
 fcitx5/.local/
 fcitx5/.config/fcitx5/conf/cached_layouts
 
+# Fish runtime
+fish/.config/fish/fish_variables
+
 # Secrets
 **/secrets*
 *.env
