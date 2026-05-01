@@ -11,6 +11,7 @@ __pycache__/
 # Rime (third-party data, not dotfiles)
 rime/
 fcitx5/.local/
+fcitx5/.config/fcitx5/conf/cached_layouts
 
 # Secrets
 **/secrets*
