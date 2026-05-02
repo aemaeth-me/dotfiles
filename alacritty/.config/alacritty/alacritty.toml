@@ -1,7 +1,7 @@
 [window]
 
 [font]
-size = 13.0
+size = 12.0
 
 [font.normal]
 family = "Monaspace Neon NF"
@@ -77,3 +77,18 @@ blue    = "#89b4fa"
 magenta = "#f5c2e7"
 cyan    = "#94e2d5"
 white   = "#bac2de"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Super"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Super"
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"

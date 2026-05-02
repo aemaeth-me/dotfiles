@@ -13,10 +13,10 @@ xmobarConf =
     { bgColor = backgroundColor
     , fgColor = foregroundColor
     , Xmobar.font = Themes.font
-    , additionalFonts = ["Sarasa Mono SC 26", "Monaspace Neon NF 24"]
+    , additionalFonts = ["Sarasa Mono SC 24", "Monaspace Neon NF 24", "Monaspace Neon NF 20"]
     , Xmobar.allDesktops = True
     , position = TopH 42
-    , template = "}%UnsafeXMonadLog%{<fc=#7f849c>%date%</fc>"
+    , template = "}%UnsafeXMonadLog%{<fc=#7f849c><fn=3>%date%</fn></fc>"
     , commands =
         [ Run UnsafeXMonadLog
         , Run $ Date "%b %d %a %H:%M " "date" 10
